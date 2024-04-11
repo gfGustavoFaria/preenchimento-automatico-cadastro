@@ -105,25 +105,10 @@ for linha in pagina_produtos.iter_rows(min_row=2): #Iterar a partir da linha doi
     pyautogui.click(172,819,duration=1)
     pyautogui.hotkey('ctrl','v')
 
-# Botão "Concluir"
+    # Botão "Concluir"
     pyautogui.click(180,899,duration=1)
     # Botão "Confirmar inclusão"  
     pyautogui.click(1169,239,duration=2)
-# Botão "adiconar mais 1"    
+    # Botão "adiconar mais um"    
     pyautogui.click(950,625, duration=2)
     
-
-
-# Repetir esses passos para outros campos até preencher todos os campos da página
-#
-# Clicar em próximo
-#
-# Repetir os mesmos passos e ir para a próxima página
-#
-# Rpetir os mesmos passos e finalizar o cadastro e clicar em concluir
-#
-# Clicar em ok, para finalizar o processo
-#
-# Clicar no ok novamente, na mensagem de confirmação de salvamento no banco de dados
-#
-# Clicar em "adicionar mais um" e repetir o processo até finalizar a planilha
