@@ -10,4 +10,13 @@ O código em linguagem Python realiza o preenchimento automático de cadastro se
 - pyautogui
 - sleep
 
-### OBS: Os comentário estão no código
+## Para pegar as coordenadas do cursor do mouse, usei o app mouseinfo. Siga os passos abaixo para abri-lo no seu computador:
+
+- Abrir cmd > 
+- pip install mouseinfo >
+- python >
+- from mouseinfo import mouseInfo >
+- mouseInfo() >
+- Enter
+
+### OBS: [Clique aqui para acessar o site com os campos de cadastro](https://cadastro-produtos-devaprender.netlify.app/index.html)
